@@ -1,0 +1,464 @@
+.contact-page {
+  background: #fbfaf5;
+}
+
+.consult-hero {
+  padding: 96px 0 56px;
+  text-align: center;
+  background: linear-gradient(180deg, #f1f6e9 0%, #fbfaf5 100%);
+}
+
+.consult-hero h1 {
+  margin: 12px 0 24px;
+  color: var(--green);
+  font-size: clamp(2rem, 5vw, 3.6rem);
+  line-height: 1.25;
+}
+
+.consult-lead {
+  max-width: 760px;
+  margin: 0 auto;
+  color: var(--text);
+  font-size: 1.05rem;
+  line-height: 2;
+}
+
+.consult-methods {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 40px;
+  color: var(--green);
+  font-weight: 700;
+}
+
+.consult-methods span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.consult-methods b {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  border-radius: 50%;
+  color: #fff;
+  background: var(--green);
+}
+
+.consult-methods i {
+  color: #9da58f;
+  font-style: normal;
+}
+
+.line-consult {
+  padding-top: 32px;
+}
+
+.line-card {
+  padding: clamp(32px, 6vw, 64px);
+  border: 1px solid #dce7d0;
+  border-radius: 28px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 18px 50px rgba(35, 69, 55, 0.08);
+}
+
+.method-label {
+  margin-bottom: 14px;
+  color: var(--green);
+  font-weight: 700;
+}
+
+.method-label span {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--green);
+  font-size: 0.78rem;
+}
+
+.line-card h2,
+.form-intro h2,
+.phone-card h2 {
+  margin-bottom: 18px;
+  color: var(--green);
+  font-size: clamp(1.65rem, 4vw, 2.45rem);
+  line-height: 1.45;
+}
+
+.line-card > p:not(.method-label) {
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.9;
+}
+
+.line-primary {
+  width: min(100%, 560px);
+  margin: 30px auto 14px;
+  padding: 20px 24px;
+  font-size: 1.05rem;
+}
+
+.line-card > small {
+  display: block;
+  color: #667064;
+}
+
+.form-section {
+  background: #fff;
+}
+
+.form-wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: clamp(36px, 7vw, 88px);
+  align-items: start;
+}
+
+.form-intro {
+  position: sticky;
+  top: 110px;
+}
+
+.form-intro > p:not(.eyebrow) {
+  line-height: 1.9;
+}
+
+.assurance {
+  margin-top: 28px;
+  padding: 20px;
+  border-radius: 16px;
+  color: var(--green);
+  background: #f1f6e9;
+  font-weight: 700;
+}
+
+.assurance p + p {
+  margin-top: 8px;
+}
+
+.form-status {
+  display: grid;
+  gap: 6px;
+  margin-top: 20px;
+  padding: 18px;
+  border: 1px solid #e8d9a9;
+  border-radius: 14px;
+  color: #66571f;
+  background: #fff9e6;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.estimate-form {
+  padding: clamp(24px, 5vw, 48px);
+  border: 1px solid #e1e6dc;
+  border-radius: 24px;
+  background: #fbfaf5;
+}
+
+.field {
+  min-width: 0;
+  margin: 0 0 28px;
+  padding: 0;
+  border: 0;
+}
+
+.field > label,
+.field > legend {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--green);
+  font-weight: 700;
+}
+
+.field em,
+.field > label > span {
+  display: inline-block;
+  margin-left: 7px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--green);
+  font-size: 0.7rem;
+  font-style: normal;
+  vertical-align: 2px;
+}
+
+.field > label > span {
+  color: #58645a;
+  background: #e8ece5;
+}
+
+.field input[type="text"],
+.field input[type="tel"],
+.field input[type="email"],
+.field textarea {
+  width: 100%;
+  border: 1px solid #cfd7ca;
+  border-radius: 12px;
+  color: var(--text);
+  background: #fff;
+  font: inherit;
+}
+
+.field input[type="text"],
+.field input[type="tel"],
+.field input[type="email"] {
+  min-height: 52px;
+  padding: 0 15px;
+}
+
+.field textarea {
+  padding: 15px;
+  resize: vertical;
+  line-height: 1.7;
+}
+
+.field input:focus,
+.field textarea:focus {
+  border-color: var(--green);
+  outline: 3px solid rgba(88, 126, 76, 0.15);
+}
+
+.field > small {
+  display: block;
+  margin-top: 8px;
+  color: #697268;
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.choice-grid,
+.contact-choice {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.choice-grid label,
+.contact-choice label {
+  cursor: pointer;
+}
+
+.choice-grid input,
+.contact-choice input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.choice-grid span,
+.contact-choice span {
+  display: grid;
+  min-height: 48px;
+  place-items: center;
+  padding: 10px;
+  border: 1px solid #cfd7ca;
+  border-radius: 11px;
+  text-align: center;
+  background: #fff;
+  transition: 0.2s ease;
+}
+
+.choice-grid input:checked + span,
+.contact-choice input:checked + span {
+  border-color: var(--green);
+  color: var(--green);
+  background: #edf4e8;
+  box-shadow: inset 0 0 0 1px var(--green);
+  font-weight: 700;
+}
+
+.choice-grid input:focus-visible + span,
+.contact-choice input:focus-visible + span {
+  outline: 3px solid rgba(88, 126, 76, 0.2);
+}
+
+.file-field input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.file-field label {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 58px;
+  padding: 9px;
+  border: 1px dashed #aebaa7;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #fff;
+}
+
+.file-field b {
+  flex: 0 0 auto;
+  padding: 10px 16px;
+  border-radius: 9px;
+  color: #fff;
+  background: var(--green);
+}
+
+.file-field span {
+  overflow: hidden;
+  color: #687268;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.privacy-field {
+  margin: 4px 0 22px;
+  font-size: 0.9rem;
+}
+
+.privacy-field label {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.privacy-field input {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  accent-color: var(--green);
+}
+
+.privacy-field small {
+  color: #8b6d19;
+}
+
+.form-submit {
+  width: 100%;
+  min-height: 58px;
+  border: 0;
+  border-radius: 12px;
+  color: #657065;
+  background: #dfe5dc;
+  font: inherit;
+  font-weight: 800;
+  cursor: not-allowed;
+}
+
+.disabled-note {
+  margin-top: 10px;
+  color: #7b8279;
+  text-align: center;
+  font-size: 0.78rem;
+}
+
+.phone-consult {
+  padding-top: 56px;
+}
+
+.phone-card {
+  padding: clamp(30px, 6vw, 58px);
+  border-radius: 24px;
+  text-align: center;
+  background: #eef3e8;
+}
+
+.phone-card > span,
+.phone-card > small {
+  display: block;
+}
+
+.phone-card > span {
+  color: #5e685e;
+  font-weight: 600;
+}
+
+.phone-card > a {
+  display: inline-block;
+  margin: 10px 0 12px;
+  color: var(--green);
+  font-family: "DM Sans", sans-serif;
+  font-size: clamp(1.8rem, 6vw, 3rem);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.phone-card > small {
+  color: #697268;
+}
+
+@media (max-width: 820px) {
+  .consult-hero {
+    padding: 72px 0 42px;
+  }
+
+  .consult-lead {
+    text-align: left;
+    font-size: 0.96rem;
+  }
+
+  .consult-lead br {
+    display: none;
+  }
+
+  .consult-methods {
+    gap: 7px;
+    margin-top: 28px;
+    font-size: 0.77rem;
+  }
+
+  .consult-methods span {
+    gap: 5px;
+  }
+
+  .consult-methods b {
+    width: 23px;
+    height: 23px;
+  }
+
+  .form-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .form-intro {
+    position: static;
+  }
+
+  .estimate-form {
+    border-radius: 18px;
+  }
+}
+
+@media (max-width: 520px) {
+  .line-card,
+  .phone-card {
+    border-radius: 18px;
+  }
+
+  .line-primary {
+    padding: 17px 14px;
+    font-size: 0.91rem;
+  }
+
+  .choice-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .file-field label {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .file-field b {
+    text-align: center;
+  }
+
+  .file-field span {
+    padding: 2px 5px;
+    white-space: normal;
+  }
+}
