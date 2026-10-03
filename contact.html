@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PLUS ONEへの無料見積もり・ご相談ページです。家具1点から、お部屋・実家・家全体の片付けまで、LINE・Webフォーム・電話からご相談いただけます。">
+  <title>無料見積もり・ご相談｜PLUS ONE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@600;700&family=Noto+Sans+JP:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body class="contact-page">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="PLUS ONE ホーム">
+        <span class="logo-mark" aria-hidden="true">＋</span>
+        <span>PLUS ONE<small>暮らしに、もうひとつの安心を。</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="メインナビゲーション">
+        <a href="index.html#services">対応内容</a><a href="index.html#strength">私たちの強み</a><a href="index.html#price">料金</a><a href="index.html#works">作業事例</a><a href="index.html#faq">よくある質問</a>
+      </nav>
+      <a class="header-cta" href="https://lin.ee/5X65XVP">LINEで相談</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="consult-hero">
+      <div class="container narrow">
+        <p class="eyebrow">CONTACT</p>
+        <h1>無料見積もり・ご相談</h1>
+        <p class="consult-lead">家具1点から、お部屋・実家・家全体の片付けまでご相談いただけます。<br>まだ依頼するか決まっていなくても大丈夫です。<br>「これってお願いできる？」「いくらくらい？」という段階から、お気軽にご相談ください。</p>
+        <div class="consult-methods" aria-label="相談方法">
+          <span><b>1</b> LINE</span><i aria-hidden="true">→</i><span><b>2</b> Webフォーム</span><i aria-hidden="true">→</i><span><b>3</b> 電話</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section line-consult" aria-labelledby="line-heading">
+      <div class="container narrow">
+        <article class="line-card">
+          <p class="method-label"><span>おすすめ</span> まずはLINEから</p>
+          <h2 id="line-heading">写真を送ってLINEで<br class="mobile-only">かんたん相談</h2>
+          <p>片付けたい物や家具の写真を送っていただければ、内容を確認してご案内します。家具1点・少量のご相談もお気軽にどうぞ。</p>
+          <a class="button button-line line-primary" href="https://lin.ee/5X65XVP">
+            <span class="line-icon" aria-hidden="true">LINE</span>
+            <span>LINEで写真を送って相談する</span>
+            <b aria-hidden="true">→</b>
+          </a>
+          <small>写真があると、よりスムーズにご案内できます。</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="section form-section" aria-labelledby="form-heading">
+      <div class="container form-wrap">
+        <div class="form-intro">
+          <p class="eyebrow">WEB FORM</p>
+          <h2 id="form-heading">フォームから<br class="mobile-only">見積もり・相談する</h2>
+          <p>LINEを利用されない方や、詳しい内容を文章で伝えたい方はこちらからご相談ください。</p>
+          <div class="assurance">
+            <p>✓ 見積もり・ご相談は無料です。</p>
+            <p>✓ まだ依頼するか決まっていなくてもご相談いただけます。</p>
+          </div>
+          <div class="form-status" role="status">
+            <b>Webフォームは現在、送信設定準備中です。</b>
+            <span>入力画面をご確認いただけますが、現時点では送信できません。お急ぎの場合はLINEまたは電話をご利用ください。</span>
+          </div>
+        </div>
+
+        <form class="estimate-form" id="estimate-form">
+          <div class="field">
+            <label for="name">お名前 <em>必須</em></label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+
+          <div class="field">
+            <label for="area">作業場所 <em>必須</em></label>
+            <input id="area" name="area" type="text" autocomplete="address-level2" placeholder="例：所沢市、川越市" required>
+            <small>市区町村程度で大丈夫です。番地は必要ありません。</small>
+          </div>
+
+          <fieldset class="field">
+            <legend>ご相談内容 <em>必須</em></legend>
+            <div class="choice-grid">
+              <label><input type="radio" name="request_type" value="家具1点・少量" required><span>家具1点・少量</span></label>
+              <label><input type="radio" name="request_type" value="お部屋の片付け"><span>お部屋の片付け</span></label>
+              <label><input type="radio" name="request_type" value="実家・家全体の片付け"><span>実家・家全体の片付け</span></label>
+              <label><input type="radio" name="request_type" value="引越しに伴う片付け"><span>引越しに伴う片付け</span></label>
+              <label><input type="radio" name="request_type" value="その他"><span>その他</span></label>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <label for="photos">写真添付 <span>任意</span></label>
+            <div class="file-field">
+              <input id="photos" name="photos" type="file" accept="image/*" multiple>
+              <label for="photos"><b>写真を選ぶ</b><span id="file-status">複数枚選択できます</span></label>
+            </div>
+            <small>片付けたい物やお部屋の写真があると、よりスムーズにご案内できます。</small>
+          </div>
+
+          <div class="field">
+            <label for="details">詳しい内容・困っていること <span>任意</span></label>
+            <textarea id="details" name="details" rows="6" placeholder="例：2階にあるタンスを処分したい／実家を片付けたいが、何から始めればいいか分からない など"></textarea>
+          </div>
+
+          <fieldset class="field">
+            <legend>希望する連絡方法 <em>必須</em></legend>
+            <div class="contact-choice">
+              <label><input type="radio" name="reply_method" value="phone" checked required><span>電話</span></label>
+              <label><input type="radio" name="reply_method" value="email"><span>メール</span></label>
+            </div>
+          </fieldset>
+
+          <div class="field contact-input" data-method="phone">
+            <label for="phone">電話番号 <em>必須</em></label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="例：090-1234-5678" required>
+          </div>
+
+          <div class="field contact-input" data-method="email" hidden>
+            <label for="email">メールアドレス <em>必須</em></label>
+            <input id="email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="例：example@email.com">
+          </div>
+
+          <div class="privacy-field">
+            <label><input type="checkbox" name="privacy_agreement" required><span>プライバシーポリシーに同意する <small>（ページ準備中）</small></span></label>
+          </div>
+
+          <button class="button form-submit" type="submit" disabled>無料で見積もり・相談する</button>
+          <p class="disabled-note">送信先とプライバシーポリシーの設定完了後に利用できます。</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section phone-consult" aria-labelledby="phone-heading">
+      <div class="container narrow">
+        <article class="phone-card">
+          <p class="eyebrow">PHONE</p>
+          <h2 id="phone-heading">お急ぎの方・<br class="mobile-only">電話で相談したい方</h2>
+          <span>ご依頼・お見積もり専用</span>
+          <a href="tel:07085431631">070-8543-1631</a>
+          <small>※営業・勧誘のお電話はご遠慮ください。</small>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <a class="logo footer-logo" href="index.html"><span class="logo-mark">＋</span><span>PLUS ONE<small>暮らしに、もうひとつの安心を。</small></span></a>
+      <p>© PLUS ONE</p>
+    </div>
+  </footer>
+
+  <nav class="mobile-fixed" aria-label="お問い合わせ">
+    <a href="tel:07085431631"><span>☎</span>電話</a>
+    <a class="line" href="https://lin.ee/5X65XVP"><span>LINE</span>LINE相談</a>
+    <a href="#estimate-form"><span>▤</span>見積もり</a>
+  </nav>
+  <script src="contact.js"></script>
+</body>
+</html>
