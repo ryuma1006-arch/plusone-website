@@ -214,3 +214,27 @@
   .company dd{font-size:14px}
   .company dd small{font-size:12px}
 }
+
+/* Desktop hero secondary CTA */
+@media(min-width:901px){
+  .hero .hero-actions .button-phone{
+    min-height:60px;
+    border:1px solid var(--green);
+    border-radius:9px;
+    padding:10px 20px;
+    background:rgba(255,255,255,.9);
+    color:var(--green);
+    font-size:14px;
+    gap:10px;
+    transition:background-color .2s ease,border-color .2s ease;
+  }
+  .hero .hero-actions .button-phone::after{
+    content:"→";
+    font-size:17px;
+    line-height:1;
+  }
+  .hero .hero-actions .button-phone:hover{
+    background:#edf4ef;
+    border-color:#164f3f;
+  }
+}
