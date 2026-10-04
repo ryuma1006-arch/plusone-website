@@ -199,3 +199,18 @@
     stroke-linejoin:round;
   }
 }
+
+
+/* Desktop body text readability */
+@media(min-width:431px){
+  .concern-grid p{font-size:14px}
+  .notice span{font-size:14px}
+  .price-grid span{font-size:13px}
+  .price-assurance li{font-size:14px}
+  .flow-list p{font-size:14px}
+  .faq-list details p{font-size:15px}
+  .company dl div,
+  .company dt,
+  .company dd{font-size:14px}
+  .company dd small{font-size:12px}
+}
