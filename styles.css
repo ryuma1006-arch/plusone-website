@@ -6,15 +6,15 @@
 
 /* Brand logo and first-view finishing */
 .logo{gap:0;font-size:0;letter-spacing:0;line-height:0}
-.brand-logo{display:block;width:190px;max-width:100%;height:auto}
+.header-logo{flex:0 0 auto}\n.header-logo .header-logo-image{display:block;width:150px;max-width:150px;height:auto}
 .hero-actions{align-items:center}
 .button-phone{min-height:auto;border:0;border-bottom:1px solid #8d9994;border-radius:0;padding:7px 2px;background:transparent;color:var(--green);font-size:13px}
 .footer-logo{padding:0 8px;border-radius:8px;background:#fff}
-.footer-logo .brand-logo{width:180px}
+.footer-logo .footer-logo-image{display:block;width:180px;max-width:100%;height:auto}
 
 @media(max-width:600px){
   .header-inner{gap:12px}
-  .brand-logo{width:156px}
+  .header-logo .header-logo-image{width:130px;max-width:130px}
   .header-cta{padding:8px 12px;white-space:nowrap}
   .hero-grid{padding-top:28px;padding-bottom:30px;gap:26px}
   .hero h1{font-size:clamp(31px,8.8vw,38px);line-height:1.35}
@@ -23,11 +23,11 @@
   .hero-actions .button-line{min-height:64px}
   .hero-actions .button-phone{min-height:auto;justify-self:start}
   .hero-contact-meta{justify-items:start;margin:10px 0 0}
-  .footer-logo .brand-logo{width:150px}
+  .footer-logo .footer-logo-image{width:160px;max-width:100%}
 }
 
 @media(max-width:370px){
-  .brand-logo{width:145px}
+  .header-logo .header-logo-image{width:120px;max-width:120px}
   .header-cta{padding:7px 9px;font-size:11px}
   .hero h1{font-size:31px}
 }
