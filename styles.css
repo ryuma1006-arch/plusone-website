@@ -166,9 +166,9 @@
   .notice b{font-size:15px}
   .notice span{font-size:15px;line-height:1.75}
   .price-grid span{font-size:16px;line-height:1.7}
-  .price-note>small{font-size:16px;line-height:1.75}
+  .price-note>small{font-size:17px;line-height:1.75;color:#4b5752}
   .price-factors span{font-size:14px}
-  .price-assurance li{font-size:16px;line-height:1.75}
+  .price-assurance li{font-size:17px;line-height:1.75}
   .price-consultation-heading p{font-size:15px;line-height:1.7}
   .price-consultation-note{font-size:15px;line-height:1.7}
   .work-card .work-area{font-size:15px}
@@ -177,7 +177,7 @@
   .works-consultation>p{font-size:15px;line-height:1.7}
   .works-consultation-note{font-size:15px}
   .flow-list p{font-size:16px;line-height:1.75}
-  .faq-list details p{font-size:16px;line-height:1.8}
+  .faq-list details p{font-size:17px;line-height:1.8;color:#4b5752}
   .faq-consultation>p{font-size:15px;line-height:1.7}
   .contact-inner>p:not(.eyebrow):not(.contact-note){font-size:16px}
   .contact-note{font-size:15px;line-height:1.7}
