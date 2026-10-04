@@ -78,3 +78,47 @@
   .price-consultation-actions>a{width:100%;min-height:56px;padding:11px 12px;font-size:14px}
   .price-consultation-note{margin-top:9px;font-size:10px}
 }
+
+/* Work examples: comparison-friendly information hierarchy */
+.works-grid .work-card:before,.works-grid .work-card:after{display:none}
+.work-card .work-photo-wrap{position:relative;height:230px;overflow:hidden}
+.work-card .work-photo-wrap:before,.work-card .work-photo-wrap:after{position:absolute;top:0;z-index:2;box-sizing:border-box;height:22px;padding:5px 13px 5px 7px;color:#fff;font:700 10px/12px "DM Sans",sans-serif;clip-path:polygon(0 0,100% 0,calc(100% - 7px) 100%,0 100%)}
+.work-card .work-photo-wrap:before{content:"Before";left:0;background:#26312d}
+.work-card .work-photo-wrap:after{content:"After";left:50%;background:#1ca35b}
+.work-card .work-photo{width:100%;height:100%;object-fit:cover}
+.works-grid .work-card>.work-body{display:flex;flex-direction:column;padding:22px 23px 24px}
+.work-card-meta{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.work-card .work-area{margin:0;color:var(--green);font-size:13px;font-weight:700}
+.work-card h3{margin:12px 0 17px;font-size:18px;line-height:1.55}
+.work-price{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:13px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.work-price span{color:var(--muted);font-size:12px}
+.work-price strong{color:var(--green);font-family:"DM Sans","Noto Sans JP",sans-serif;font-size:21px;line-height:1.3;white-space:nowrap}
+.work-scale{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:14px;padding:15px 0}
+.work-scale span{display:grid;gap:3px}
+.work-scale small{color:var(--muted);font-size:11px}
+.work-scale strong{font-size:15px}
+.work-scale i{width:1px;height:32px;background:var(--line)}
+.work-items{display:grid;gap:5px;margin:auto 0 0;padding-top:14px;border-top:1px solid var(--line)}
+.work-items span{color:var(--muted);font-size:11px}
+.work-items strong{font-size:13px;line-height:1.65}
+.works-consultation{margin-top:38px;text-align:center}
+.works-consultation h3{margin:0;color:var(--green);font-size:20px;line-height:1.5}
+.works-consultation p{margin:6px 0 17px;color:var(--muted);font-size:13px;line-height:1.7}
+.works-consultation a{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:50px;padding:10px 24px;border-radius:9px;background:#06c755;color:#fff;font-size:14px;font-weight:700}
+.works-consultation a:hover{background:#05b84e}
+
+@media(max-width:600px){
+  .works-grid{gap:18px}
+  .works-grid .work-card{display:flex;grid-template-columns:none}
+  .work-card .work-photo-wrap{height:auto;aspect-ratio:16/10}
+  .works-grid .work-card>.work-body{padding:20px}
+  .work-card h3{margin:11px 0 15px;font-size:18px}
+  .work-price{padding:12px 0}
+  .work-price strong{font-size:20px}
+  .work-scale{padding:14px 0}
+  .work-items strong{font-size:13px}
+  .works-consultation{margin-top:30px}
+  .works-consultation h3{font-size:18px}
+  .works-consultation p{margin:6px auto 15px;font-size:12px}
+  .works-consultation a{width:100%;min-height:52px;padding:10px 14px;font-size:14px}
+}
