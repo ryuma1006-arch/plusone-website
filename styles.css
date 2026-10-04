@@ -45,10 +45,17 @@
 .price-assurance{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0 0;padding:0;list-style:none}
 .price-assurance li{position:relative;padding:13px 14px 13px 37px;border:1px solid var(--line);border-radius:8px;color:#4b5752;font-size:12px;line-height:1.65}
 .price-assurance li:before{content:"✓";position:absolute;left:14px;top:13px;color:var(--green);font-weight:800}
-.price-line-guide{margin-top:18px;padding-top:18px;border-top:1px solid #d8ded9;text-align:center}
-.price-line-cta{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:9px 18px;border:1px solid var(--green);border-radius:8px;background:#fff;color:var(--green);font-size:13px;font-weight:700}
-.price-line-caption{display:block;margin-top:8px;color:var(--muted);font-size:11px;line-height:1.65}
-.price-line-cta:hover{background:var(--green);color:#fff}
+.price-consultation{margin-top:22px;padding:25px 26px 26px;background:#edf4ef;border-radius:10px}
+.price-consultation-heading{text-align:center}
+.price-consultation-heading h3{margin:0;color:var(--green);font-size:20px;line-height:1.5}
+.price-consultation-heading p{margin:4px 0 0;color:var(--muted);font-size:12px}
+.price-consultation-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;max-width:720px;margin:19px auto 0}
+.price-consultation-option>span{display:block;margin:0 0 6px;font-size:11px;font-weight:700;text-align:center}
+.price-consultation-option>a{display:flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:10px 16px;border-radius:8px;font-size:14px;font-weight:700;line-height:1.4;white-space:nowrap}
+.price-consultation-line>a{border:1px solid #06c755;background:#06c755;color:#fff}
+.price-consultation-line>a:hover{background:#05b84e;border-color:#05b84e}
+.price-consultation-form>a{border:1px solid var(--green);background:#fff;color:var(--green)}
+.price-consultation-form>a:hover{background:#f8fbf9}
 
 @media(max-width:900px){
   .price-assurance{grid-template-columns:1fr}
@@ -65,7 +72,9 @@
   .price-assurance{gap:8px}
   .price-assurance li{padding:12px 12px 12px 35px}
   .price-assurance li:before{left:13px;top:12px}
-  .price-line-guide{margin-top:16px;padding-top:16px}
-  .price-line-cta{width:100%;min-height:52px;padding:10px 12px}
-  .price-line-caption{font-size:10px}
+  .price-consultation{margin-top:18px;padding:21px 18px 22px}
+  .price-consultation-heading h3{font-size:18px}
+  .price-consultation-heading p{font-size:11px;line-height:1.65}
+  .price-consultation-actions{grid-template-columns:1fr;gap:12px;margin-top:16px}
+  .price-consultation-option>a{width:100%;min-height:52px;padding:10px 12px;font-size:13px}
 }
