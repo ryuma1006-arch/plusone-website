@@ -156,31 +156,31 @@
 
 @media(max-width:430px){
   .hero-lead{font-size:16px}
-  .hero-note{font-size:14px;line-height:1.7}
-  .section-heading>span{font-size:15px;line-height:1.75}
-  .concern-grid p{font-size:15px;line-height:1.75}
-  .center-message{font-size:15px}
-  .service-grid article>span{font-size:15px;line-height:1.75}
-  .service-grid li{font-size:14px}
+  .hero-note{font-size:15px;line-height:1.7}
+  .section-heading>span{font-size:16px;line-height:1.75}
+  .concern-grid p{font-size:16px;line-height:1.75}
+  .center-message{font-size:16px}
+  .service-grid article>span{font-size:16px;line-height:1.75}
+  .service-grid li{font-size:15px}
   .strength-copy>p:not(.eyebrow){font-size:16px}
-  .notice b{font-size:14px}
-  .notice span{font-size:14px;line-height:1.75}
-  .price-grid span{font-size:14px;line-height:1.7}
-  .price-note>small{font-size:14px;line-height:1.75}
+  .notice b{font-size:15px}
+  .notice span{font-size:15px;line-height:1.75}
+  .price-grid span{font-size:16px;line-height:1.7}
+  .price-note>small{font-size:16px;line-height:1.75}
   .price-factors span{font-size:14px}
-  .price-assurance li{font-size:14px;line-height:1.7}
-  .price-consultation-heading p{font-size:14px;line-height:1.7}
-  .price-consultation-note{font-size:14px;line-height:1.7}
-  .work-card .work-area{font-size:14px}
-  .work-price span,.work-scale small,.work-items span{font-size:14px}
-  .work-items strong{font-size:15px;line-height:1.7}
-  .works-consultation>p{font-size:14px;line-height:1.7}
-  .works-consultation-note{font-size:14px}
-  .flow-list p{font-size:15px;line-height:1.75}
-  .faq-list details p{font-size:15px;line-height:1.8}
-  .faq-consultation>p{font-size:14px;line-height:1.7}
+  .price-assurance li{font-size:16px;line-height:1.75}
+  .price-consultation-heading p{font-size:15px;line-height:1.7}
+  .price-consultation-note{font-size:15px;line-height:1.7}
+  .work-card .work-area{font-size:15px}
+  .work-price span,.work-scale small,.work-items span{font-size:15px}
+  .work-items strong{font-size:16px;line-height:1.7}
+  .works-consultation>p{font-size:15px;line-height:1.7}
+  .works-consultation-note{font-size:15px}
+  .flow-list p{font-size:16px;line-height:1.75}
+  .faq-list details p{font-size:16px;line-height:1.8}
+  .faq-consultation>p{font-size:15px;line-height:1.7}
   .contact-inner>p:not(.eyebrow):not(.contact-note){font-size:16px}
-  .contact-note{font-size:14px;line-height:1.7}
-  .company dl div{font-size:14px}
-  .company dd small{font-size:14px;line-height:1.7}
+  .contact-note{font-size:15px;line-height:1.7}
+  .company dl div{font-size:16px;line-height:1.75}
+  .company dd small{font-size:15px;line-height:1.7}
 }
