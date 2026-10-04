@@ -184,3 +184,18 @@
   .company dl div{font-size:16px;line-height:1.75}
   .company dd small{font-size:15px;line-height:1.7}
 }
+
+
+/* Desktop icon rendering safeguard */
+@media(min-width:431px){
+  .concern-grid .line-art svg,
+  .concern-grid .line-art svg *,
+  .service-grid .service-icon svg,
+  .service-grid .service-icon svg *{
+    fill:none!important;
+    stroke:var(--green)!important;
+    stroke-width:1.8;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+}
