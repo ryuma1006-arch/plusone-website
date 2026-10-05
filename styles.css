@@ -253,3 +253,15 @@
 /* FAQ answer paragraph spacing */
 .faq-list details p br:nth-of-type(odd){display:block;content:"";margin-bottom:9px}
 .faq-list details p br:nth-of-type(even){display:none}
+
+
+/* Company and footer trust links */
+.footer-nav{display:flex;align-items:center;justify-content:center;gap:24px}
+.footer-nav a{padding:8px 2px;color:#d8e3df;font-size:13px;font-weight:500;line-height:1.5}
+.footer-nav a:hover{color:#fff}
+
+@media(max-width:600px){
+  footer .container{flex-direction:column;gap:14px;text-align:center}
+  .footer-nav{flex-direction:column;gap:2px}
+  .footer-nav a{min-height:40px;display:flex;align-items:center;padding:8px 6px;font-size:14px}
+}
