@@ -249,3 +249,7 @@
   .work-concern{margin-bottom:13px;font-size:15px;line-height:1.7}
   .work-concern span{font-size:14px}
 }
+
+/* FAQ answer paragraph spacing */
+.faq-list details p br:nth-of-type(odd){display:block;content:"";margin-bottom:9px}
+.faq-list details p br:nth-of-type(even){display:none}
