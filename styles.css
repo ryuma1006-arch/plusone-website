@@ -240,3 +240,11 @@
   }
 }
 
+/* Work examples: customer context */
+.work-concern{margin:0 0 14px;color:#4b5752;font-size:13px;line-height:1.7}
+.work-concern span{display:block;margin-bottom:3px;color:var(--muted);font-size:11px;font-weight:600;line-height:1.5}
+
+@media(max-width:600px){
+  .work-concern{margin-bottom:13px;font-size:15px;line-height:1.7}
+  .work-concern span{font-size:14px}
+}
